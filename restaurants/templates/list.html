@@ -14,7 +14,7 @@
                     <li>{{restaurant.closing_time}}</li>
                 </ul>
             </a>
-            <a href="{% url 'restaurant-delete' object_id=object.id %}">Delete</a>
+            <a href="{% url 'restaurant-delete' restaurant.id %}">Delete Dis</a>
         {% endfor %}
     </body>
 </html>
